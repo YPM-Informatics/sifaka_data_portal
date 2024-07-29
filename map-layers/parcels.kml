@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>parcels.kml</name>
+	<open>1</open>
+	<Schema name="parcels" id="parcels">
+		<SimpleField type="string" name="LIMITE"></SimpleField>
+		<SimpleField type="float" name="size"></SimpleField>
+		<SimpleField type="string" name="Nom"></SimpleField>
+	</Schema>
+	<Style id="style">
+		<LineStyle>
+			<color>ffd29864</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80cccccc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ffd29864</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80cccccc</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>parcels</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcels">
+					<SimpleData name="LIMITE">1</SimpleData>
+					<SimpleData name="size">737.79700000000</SimpleData>
+					<SimpleData name="Nom">II</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								44.596611,-23.692111,0 44.590639,-23.686167,0 44.587528,-23.685583,0 44.584417,-23.687806,0 44.584,-23.687083,0 44.583028,-23.6875,0 44.581083,-23.687583,0 44.576833,-23.687917,0 44.587694,-23.665306,0 44.600111,-23.664444,0 44.604722,-23.663,0 44.612639,-23.665528,0 44.614389,-23.674694,0 44.596611,-23.692111,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ffd29864</color>
+					<width>6</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcels">
+					<SimpleData name="LIMITE">1</SimpleData>
+					<SimpleData name="size">89.49980000000</SimpleData>
+					<SimpleData name="Nom">I</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								44.635731,-23.649886,0 44.636828,-23.649919,0 44.637108,-23.650039,0 44.637379,-23.65015,0 44.637442,-23.65015,0 44.636722,-23.650806,0 44.63548,-23.651811,0 44.635289,-23.6522,0 44.634981,-23.652664,0 44.634181,-23.653717,0 44.633931,-23.654217,0 44.633928,-23.654825,0 44.633856,-23.655528,0 44.633167,-23.655631,0 44.632922,-23.655639,0 44.631711,-23.655525,0 44.630867,-23.655725,0 44.629972,-23.65585,0 44.629253,-23.655564,0 44.627925,-23.655292,0 44.626889,-23.655356,0 44.625911,-23.655572,0 44.624903,-23.655806,0 44.624003,-23.65595799999999,0 44.622039,-23.656325,0 44.622358,-23.655461,0 44.622347,-23.654567,0 44.622458,-23.653589,0 44.622492,-23.653583,0 44.622631,-23.653008,0 44.623414,-23.652025,0 44.623558,-23.651061,0 44.623589,-23.650258,0 44.623839,-23.649225,0 44.623928,-23.647831,0 44.624922,-23.648183,0 44.62585,-23.648458,0 44.626768,-23.648767,0 44.627822,-23.64899399999999,0 44.628797,-23.649125,0 44.629781,-23.649183,0 44.630852,-23.649348,0 44.63191,-23.649597,0 44.632342,-23.649675,0 44.632747,-23.6497,0 44.63375,-23.649844,0 44.634633,-23.649875,0 44.635731,-23.649886,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,867 @@
+html
+{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+body
+{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 760px;
+    margin: 0px;
+}
+
+#sifaka_logo
+{
+    height: 75px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+#footer
+{
+    clear: both;
+
+    background: #0071bc;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    margin-top: 6px;
+}
+
+#footer > span
+{
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#header
+{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    min-width: 350px;
+    max-height: 80px;
+    height: 80px;
+    background: #0071bc;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin-bottom: 10px;
+}
+
+
+.title
+{
+    position: relative;
+    float: left;
+    width: 30%;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: x-large;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.title > span
+{
+    position: relative;
+    bottom: 20px;
+}
+
+.navi_horiz_list
+{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.navi_horiz_list a:link,
+.navi_horiz_list a:visited,
+.navi_horiz_list a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navi_horiz_list a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.navi_horiz_list ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navi_horiz_list li
+{
+    display: inline;
+    margin-right: 10px; /* margin between items */
+}
+
+
+
+h1
+{
+    color: blue;
+}
+
+h2
+{
+    border-bottom-color: rgb(162, 169, 177);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: "Linux Libertine", "Georgia", "Times", serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.8833px;
+    margin-bottom: 5.25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.id_headline_left
+{
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: "Linux Libertine", "Georgia", "Times", serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.8833px;
+}
+
+.id_headline_right
+{
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: "Linux Libertine", "Georgia", "Times", serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.8833px;
+    float: right;
+    clear: right;
+}
+
+p
+{
+    color: rgb(32, 33, 34);
+    direction: ltr;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22.4px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 7px;
+}
+
+th
+{
+    border-spacing: 3px 3px;
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: sans-serif;
+    font-size: 12.32px;
+    line-height: 18.4833px;
+    text-align: left;
+    vertical-align: top;
+}
+
+button
+{
+    background-color: #0071bc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    padding: 0px 12px;
+
+    & img
+    {
+        vertical-align: middle;
+        filter: invert(100%);
+        height: 24px;
+        border: none;
+    }
+}
+
+button:hover
+{
+    background-color: #01416b;
+}
+
+button:disabled
+{
+    background-color: #a2a9b1;
+}
+
+.spm
+{
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0.75em .5em .75em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    font-size: 88%;
+    line-height: 1.5em;
+    display: inline-table;
+    width: 540px;
+}
+
+.spm_body
+{
+    display: none;
+}
+
+#spms
+{
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100vh - 234px) !important;
+}
+
+#filter-widget
+{
+    height: 85px;
+    font-size: 20px;
+
+    & p
+    {
+        font-size: 20px;
+    }
+
+    & p, input, select
+    {
+        font-size: 18px;
+    }
+}
+
+#left-pane
+{
+    position: relative;
+    background-color: #f1f1f1;
+    width: 600px;
+    height: calc(100vh - 140px);
+    float: left;
+}
+
+#cluster-widget
+{
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#cluster-widget td
+{
+    padding: 3px;
+
+    & input, select, span
+    {
+        font-size: 18px;
+    }
+}
+
+#cluster-widget > tbody > tr:nth-child(odd)
+{
+    background-color: #ddd;
+}
+
+#cluster-widget .birth-date-input, #cluster-widget .death-date-input
+{
+    white-space: nowrap;
+    text-align: right;
+
+    & input
+    {
+        width: 50px;
+    }
+}
+
+#cluster-widget #cluster-alert
+{
+    color: red;
+    text-align: center;
+}
+
+#add-group-widget
+{
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+#add-group-widget td
+{
+    padding: 3px;
+    white-space: nowrap;
+
+    & input
+    {
+        font-size: 18px;
+        width: 175px;
+    }
+}
+
+#add-group-widget > tbody > tr:nth-child(odd)
+{
+    background-color: #ddd;
+}
+
+#add-group-widget #group-widget-alert
+{
+    color: red;
+    text-align: center;
+}
+
+#downloads-widget-container
+{
+    position: relative;
+    overflow-x: hidden;
+    width: 930px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+}
+
+#downloads-widget
+{
+    position: relative;
+    display: table;
+    min-width: 500px;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #a2a9b1;
+    padding: 2px;
+
+    .labels, .controls, .actions
+    {
+        display: table;
+        width: 100%;
+    }
+
+    .labels, .controls
+    {
+        margin-bottom: 10px;
+    }
+}
+
+#downloads-widget .labels
+{
+    background-color: #f2f2f2;
+    padding-bottom: 2px;
+
+    & label
+    {
+        margin-left: 5px;
+    }
+}
+
+
+#login-widget-container
+{
+    position: relative;
+    width: 930px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+}
+
+#login-form
+{
+    position: relative;
+    display: table;
+    min-width: 350px;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-widget-container .username-section
+{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#login-widget-container .password-section
+{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#login-widget-container .actions-section
+{
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#login-widget-container .label-box
+{
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+#login-widget-container .input-box
+{
+    position: relative;
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+#login-widget-container .input-box input
+{
+    font-size: 18px;
+}
+
+#login-widget-container .signup-box
+{
+    position: relative;
+    width: 70%;
+    float: left;
+}
+
+
+#login-widget-container .login-box
+{
+    position: relative;
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+#notices
+{
+    position: relative;
+    display: table;
+    min-width: 350px;
+    width: 0;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    padding: 5px;
+    /*background-color: #f2f2f2;*/
+}
+
+#action-notice
+{
+    width: 100%;
+    display: none;
+}
+
+#pwd-notice
+{
+    width: 100%;
+}
+
+#pwd-notice ul
+{
+    margin: 0;
+}
+
+#captures-widget-container
+{
+    position: relative;
+    overflow-x: hidden;
+    width: 930px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+}
+
+#captures-widget
+{
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & table
+    {
+        border-collapse: collapse;
+        background-color: transparent;
+        width: 72%;
+    }
+
+    & table > tbody > tr > td:last-child
+    {
+        text-align: right;
+    }
+}
+
+#captures-widget td
+{
+    padding: 3px;
+}
+
+#captures-widget td
+{
+    & input, select
+    {
+        font-size: 18px;
+    }
+}
+
+#captures-widget > tbody > tr:nth-child(odd)
+{
+    background-color: #ddd;
+}
+
+#census-widget-container
+{
+    position: relative;
+    overflow-x: hidden;
+    width: 80%;
+    min-width: 930px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+}
+
+#census-widget .add-row-pane
+{
+    position: relative;
+    vertical-align: bottom;
+}
+
+#census-widget .widget-pane
+{
+    width: 100%;
+
+    & input
+    {
+        font-size: 18px;
+    }
+}
+
+#census-widget .widget-pane
+{
+    .init-group-view, .last-group-view
+    {
+        white-space: nowrap;
+    }
+}
+
+#census-widget .widget-pane > table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#census-widget .widget-pane > table > thead > tr > th
+{
+    font-size: 18px;
+}
+
+#census-widget .widget-pane > table th:nth-last-child(4), #census-widget .widget-pane > table td:nth-last-child(4)
+{
+    border-left: 1px solid #a2a9b1;
+}
+
+#census-widget .widget-pane > table > tbody tr:nth-child(odd)
+{
+    background-color: #f2f2f2;
+}
+
+#census-widget .widget-pane > table
+{
+    & .date-input
+    {
+        white-space: nowrap;
+
+        & > input
+        {
+            width: 40px;
+        }
+    }
+
+    & .sid-input
+    {
+        white-space: nowrap;
+
+        & input
+        {
+            width: 65px;
+            position: relative;
+        }
+    }
+
+    & .lon-input, .lat-input
+    {
+        width: 90px;
+    }
+
+    & .wc-input > input
+    {
+        display: none;
+    }
+}
+
+#census-widget .widget-pane > table .del-row-action
+{
+    text-align: right;
+}
+
+#census-widget .crud-pane
+{
+    padding-top: 5px;
+}
+
+#paste-target-container
+{
+    display: none;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & .bulk-crud
+    {
+        width: 100%;
+    }
+
+    & .bulk-crud-left
+    {
+        display: inline-block;
+        text-align: left;
+        width: 50%;
+    }
+
+    & .bulk-crud-right
+    {
+        position: relative;
+        right: -2px;;
+        text-align: right;
+        width: 50%;
+        float: right;
+        
+    }
+}
+
+#paste-target
+{
+    border: 1px solid #a2a9b1;
+    width: 100%;
+    padding: 0;
+    min-height: 200px;
+    resize: none;
+    white-space: pre;
+}
+
+#map
+{
+    width: 100%;
+    height: 500px;
+
+    /*position: fixed;*/
+}
+
+.map-container
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: calc(100% - 620px);
+    /*height: 1000px;*/
+    height: 100%; /*calc(100% - 1500px);*/
+    padding-left: 9px;
+}
+
+.events
+{
+    width: 275px;
+    max-height: 200px;
+    overflow: auto;
+    float: right;
+    clear: right;
+}
+
+.core-data
+{
+    max-height: 200px;
+    overflow: auto;
+}
+
+.events td
+{
+    width: 200px;
+}
+
+.page-content
+{
+    clear: both;
+    margin-left: 10px;
+}
+
+#alert-box
+{
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 800; /* Add a z-index if needed */
+    left: 50%; /* Center the alert-box */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the alert-box when clicking on a button (class added with JavaScript) */
+#alert-box.show
+{
+    visibility: visible; /* Show the alert-box */
+    /* Add animation: Take 0.5 seconds to fade in and out the alert-box.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#editor-widget-container
+{
+    position: relative;
+    margin-top: 50px;
+    overflow-x: hidden;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+
+    & a
+    {
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+#death-widget-container
+{
+    position: relative;
+    margin-top: 50px;
+    overflow-x: hidden;
+    width: 60%;
+    min-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: calc(100vh - 164px);
+    font-size: 20px;
+
+    & #death-widget
+    {
+        background-color: #f2f2f2;
+        width: 100%;
+        border-collapse: collapse;
+        background-color: transparent;
+
+        & tbody > tr:nth-child(odd)
+        {
+            background-color: #ddd;
+        }
+
+        & td
+        {
+            padding: 3px;
+        }
+
+        & input
+        {
+            font-size: 18px;
+        }
+
+        & label
+        {
+            font-weight: bold;
+        }
+    }
+}
+
+.invalid-input
+{
+    border: solid 1px red;
+    padding: 2px 3px;
+}
+
+#data-headers > span
+{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Animations to fade the alert-box in and out */
+@-webkit-keyframes fadein
+{
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein
+{
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout
+{
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout
+{
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

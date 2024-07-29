@@ -1,0 +1,24 @@
+.autocomplete
+{
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #A1A1A1;
+    border-top: none;
+    border-bottom: none;
+    z-index: 9999;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items > span {
+    display: block;
+    padding: 2px;
+    border-bottom: 1px solid #A1A1A1;
+    font-size: 80%;
+    background-color: #FFF;
+}

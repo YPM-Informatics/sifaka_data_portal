@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="layons_v2" id="layons_v2">
+	<SimpleField name="NOM" type="string"></SimpleField>
+	<SimpleField name="COULEUR" type="string"></SimpleField>
+</Schema>
+<Folder><name>layons_v2</name>
+  <Placemark>
+	<Style><LineStyle><color>FFbc94cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Pink2</SimpleData>
+		<SimpleData name="COULEUR">pink</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.636722,-23.650806 44.63627,-23.650728 44.635861,-23.650694 44.634889,-23.650722 44.633942,-23.650815 44.632806,-23.650944 44.631694,-23.651 44.630872,-23.651019 44.629861,-23.65125 44.628861,-23.651139 44.627639,-23.651111 44.626778,-23.651194 44.626083,-23.651167 44.624894,-23.651176 44.623736,-23.651043 44.623558,-23.651061</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFbc94cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Pink1</SimpleData>
+		<SimpleData name="COULEUR">pink</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.63548,-23.651811 44.634866,-23.651938 44.633917,-23.651837 44.632817,-23.65192 44.631738,-23.651926 44.630881,-23.651948 44.629805,-23.65194 44.62902,-23.652054 44.627862,-23.651977 44.626769,-23.652044 44.625768,-23.652025 44.624846,-23.652003 44.623788,-23.652049 44.623414,-23.652025</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFff3c01</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Blue3</SimpleData>
+		<SimpleData name="COULEUR">blue</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.634981,-23.652664 44.634583,-23.652625 44.633942,-23.6526 44.632844,-23.652725 44.6318,-23.6528 44.630822,-23.652864 44.629983,-23.652889 44.629144,-23.652944 44.627928,-23.653019 44.62685,-23.653033 44.626061,-23.653097 44.624844,-23.65307 44.623737,-23.653025 44.622631,-23.653008</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFff3c01</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Blue2</SimpleData>
+		<SimpleData name="COULEUR">blue</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.633442,-23.654431 44.632847,-23.65435 44.63175,-23.654189 44.630844,-23.653997 44.629922,-23.653775 44.629094,-23.653728 44.627833,-23.653756 44.626814,-23.653683 44.625952,-23.653678 44.624875,-23.653689 44.623839,-23.653642 44.622492,-23.653583</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFff3c01</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Blue1</SimpleData>
+		<SimpleData name="COULEUR">blue</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.633153,-23.655403 44.632969,-23.655392 44.631786,-23.655117 44.630925,-23.654881 44.630017,-23.654694 44.629183,-23.65465 44.627956,-23.654622 44.626825,-23.654583 44.625897,-23.654531 44.625014,-23.654592 44.624011,-23.654556 44.622422,-23.654586</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFff3c01</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">BlueW</SimpleData>
+		<SimpleData name="COULEUR">blue</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.624003,-23.655958 44.624011,-23.654556 44.623839,-23.653642 44.623737,-23.653025 44.623788,-23.652049 44.623736,-23.651043 44.623778,-23.650333 44.623701,-23.649783</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF01ff38</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">GreenW</SimpleData>
+		<SimpleData name="COULEUR">green</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.624903,-23.655806 44.625014,-23.654592 44.624875,-23.653689 44.624844,-23.65307 44.624846,-23.652003 44.624894,-23.651176 44.624972,-23.650278 44.624922,-23.648183</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF07fff7</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">YellowW</SimpleData>
+		<SimpleData name="COULEUR">yellow</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.625911,-23.655572 44.625897,-23.654531 44.62575,-23.653683 44.626061,-23.653097 44.625768,-23.652025 44.626083,-23.651167 44.625972,-23.650167 44.62585,-23.648458</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF1872cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">OrangeW</SimpleData>
+		<SimpleData name="COULEUR">orange</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.626889,-23.655356 44.626825,-23.654583 44.626814,-23.653683 44.62685,-23.653033 44.626769,-23.652044 44.626778,-23.651194 44.626778,-23.650361 44.626768,-23.648767</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF1601ff</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">RedW</SimpleData>
+		<SimpleData name="COULEUR">red</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.627925,-23.655292 44.627956,-23.654622 44.627833,-23.653756 44.627928,-23.653019 44.627862,-23.651977 44.627639,-23.651111 44.627972,-23.650222 44.627822,-23.648994</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF1b1115</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Black</SimpleData>
+		<SimpleData name="COULEUR">black</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.629253,-23.655564 44.629183,-23.65465 44.629094,-23.653728 44.629144,-23.652944 44.629101,-23.651965 44.628861,-23.651139 44.628972,-23.650167 44.62875,-23.649261 44.628797,-23.649125</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFbc94cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">PinkE</SimpleData>
+		<SimpleData name="COULEUR">pink</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.630867,-23.655725 44.630925,-23.654881 44.630844,-23.653997 44.630822,-23.652864 44.630881,-23.651948 44.630872,-23.651019 44.631056,-23.649972 44.630893,-23.649462 44.630852,-23.649348</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFff3c01</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">BlueE</SimpleData>
+		<SimpleData name="COULEUR">blue</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.631711,-23.655525 44.631786,-23.655117 44.63175,-23.654189 44.6318,-23.6528 44.631738,-23.651926 44.631694,-23.651 44.631889,-23.650056 44.631965,-23.649684 44.63191,-23.649597</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF07fff7</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">YellowE</SimpleData>
+		<SimpleData name="COULEUR">yellow</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.63375,-23.649844 44.633768,-23.649898 44.633833,-23.649944 44.633943,-23.65074 44.633917,-23.651837 44.633942,-23.6526 44.633923,-23.653408</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF1872cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">OrangeE</SimpleData>
+		<SimpleData name="COULEUR">orange</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.634883,-23.652101 44.634866,-23.651938 44.634889,-23.650722 44.634808,-23.649953 44.634633,-23.649875</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF1601ff</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">RedE</SimpleData>
+		<SimpleData name="COULEUR">red</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.635731,-23.649886 44.635753,-23.64997 44.635861,-23.650694 44.635945,-23.651075</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFbc94cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Pink4</SimpleData>
+		<SimpleData name="COULEUR">pink</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.635753,-23.64997 44.634808,-23.649953 44.633922,-23.649917 44.633717,-23.649894 44.632683,-23.649792 44.631965,-23.649684 44.630711,-23.649425 44.629731,-23.649253 44.62875,-23.649261 44.623839,-23.649225</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF36e5d1</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Center</SimpleData>
+		<SimpleData name="COULEUR">center</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.629972,-23.65585 44.630017,-23.654694 44.629922,-23.653775 44.629983,-23.652889 44.629805,-23.65194 44.629861,-23.65125 44.629806,-23.650167 44.629731,-23.649253 44.629781,-23.649183</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFbc94cb</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">Pink3</SimpleData>
+		<SimpleData name="COULEUR">pink</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.633922,-23.649917 44.633833,-23.649944 44.63275,-23.650056 44.631889,-23.650056 44.631056,-23.649972 44.629806,-23.650167 44.628972,-23.650167 44.627972,-23.650222 44.626778,-23.650361 44.625972,-23.650167 44.624972,-23.650278 44.623778,-23.650333 44.623589,-23.650258</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF01ff38</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#layons_v2">
+		<SimpleData name="NOM">GreenE</SimpleData>
+		<SimpleData name="COULEUR">green</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>44.632922,-23.655639 44.632969,-23.655392 44.632847,-23.65435 44.632844,-23.652725 44.632817,-23.65192 44.632806,-23.650944 44.63275,-23.650056 44.632683,-23.649792 44.632747,-23.6497</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

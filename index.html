@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sifaka Data Portal - Home</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/modal-img.css" type="text/css">
+    <link rel="stylesheet" href="styles/autocomplete.css" type="text/css">
+    <link rel="stylesheet" href="libs/open-layers/theme/default/style.css" type="text/css">
+    <script src="libs/open-layers/OpenLayers_nt_min.js" type="text/javascript"></script>
+    <script src="libs/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script src="scripts/renderers.js" type="text/javascript"></script>
+    <script src="scripts/autocomplete.js" type="text/javascript"></script>
+    <script src="scripts/modal-img.js" type="text/javascript"></script>
+    <script src="scripts/sifakas.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="header">
+        <div class="title">
+            <img id="sifaka_logo" alt="Sifaka logo" src="images/sifaka.svg">
+            <span>Sifaka Data Portal</span>
+        </div>
+        <div class="navi_horiz_list">
+            <ul>
+                <!-- <li><a href="./">About</a></li> -->
+                <li><a href="./">Explore Data</a></li>
+                <li><a href="editor.html">Edit Data</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+		<li><a href="manual_final_9jan2024.pdf">Manual</a></li>
+                <li><a id="auth-link" href="./">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-content">
+      <div id="left-pane">
+        <div id="filter-widget">
+          <p id="filter-notice">Currently showing individuals censused in the last year.</p>
+              <div id="filter-opts-box" style="float: left;">
+                  <label>Filter by:</label>
+                  <select id="filters">
+                    <option value="date-range">Date range</option>
+                    <option value="sid">Sifaka id</option>
+                    <option value="sex">Sex</option>
+                  </select>
+                  <div style="width: 100%; text-align: right; padding-top: 3px;">
+                    <button id="apply-filter" type="button">Filter</button>
+                  </div>
+              </div>
+              <div id="filter-box" style="float: left; margin-left: 10px;">
+                  <table name="filters" id="date-range" style="border-collapse: collapse;">
+                    <tr>
+                      <td>
+                        <label>Start: </label>
+                      </td>
+                      <td>
+                        <input id="start-month" type="text" placeholder="month" maxlength="2" style="width: 40px;" />
+                      </td>
+                      <td>
+                        <input id="start-year" type="text" placeholder="year" maxlength="4" style="width: 40px;" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>End: </label>
+                      </td>
+                      <td>
+                        <input id="end-month" type="text" placeholder="month" maxlength="2" style="width: 40px;" />
+                      </td>
+                      <td>
+                        <input id="end-year" type="text" placeholder="year" maxlength="4" style="width: 40px;" />
+                      </td>
+                    </tr>
+                  </table>
+                  <table name="filters" id="sid" style="border-collapse: collapse; display: none;">
+                    <tr>
+                      <td>
+                        <label for="sifaka-id">Sifakfa Id: </label>
+                      </td>
+                      <td style="text-align: right;">
+                        <input id="sifaka-id" placeholder="S1234" title="Sifaka id" type="text" maxlength="10" style="width: 55px;" autocomplete="off">
+                      </td>
+                    </tr>
+                  </table>
+                  <table name="filters" id="sex" style="border-collapse: collapse; display: none;">
+                    <tr>
+                      <td>
+                        <label>Sex: </label>
+                      </td>
+                      <td>
+                        <select id="sexes">
+                          <option value="">None</option>
+                          <option value="female">Female</option>
+                          <option value="male">Male</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
+        </div>
+        <div id="spms">
+        </div>
+      </div>
+        <div class="map-container" id="map_container_id">
+            <div id="map" class="olMap"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <span>&copy; 2023</span>
+    </div>
+    <div id="alert-box"></div>
+    <div id="modal-pic-box">
+      <span class="modal-close">&times;</span>
+      <img class="modal-content" alt="Full Sifaka image">
+      <div id="modal-caption"></div>
+    </div>
+    <script type="text/javascript">
+        handleResize();
+
+        $(document).ready(function ()
+        {
+            initMap();
+        });
+
+        $(window).on("resize", function ()
+        {
+            handleResize();
+        });
+    </script>
+  </body>
+</html>
